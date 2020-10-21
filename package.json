@@ -1,0 +1,20 @@
+{
+  "name": "campsite-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --es-module-specifier-resolution=node index.js"
+  },
+  "author": "timothympace@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "gmail-send": "^1.8.10",
+    "node-fetch": "^2.6.0",
+    "query-string": "^6.13.6"
+  }
+}
